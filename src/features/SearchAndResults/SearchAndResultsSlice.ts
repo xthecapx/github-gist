@@ -1,6 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { AppThunk, RootState } from '../../store';
 
+const BaseUrl = import.meta.env.SNOWPACK_PUBLIC_API_URL;
+
 export interface File {
   filename: string;
   language: string;
@@ -47,7 +49,7 @@ export const { addGists, selectGist } = gistsSlice.actions;
 export const getUserPublicGists = (userName: string): AppThunk => async (
   dispatch,
 ) => {
-  let gistData = await fetch(`/api/users/${userName}/gists`);
+  let gistData = await fetch(`${BaseUrl}/users/${userName}/gists`);
   let data = await gistData.json();
 
   dispatch(addGists(data));

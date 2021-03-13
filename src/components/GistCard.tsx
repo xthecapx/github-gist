@@ -18,7 +18,6 @@ const GistCard: FC<{ gistData: Gist }> = ({ gistData }) => {
     <li
       className={styles.ListRow}
       onClick={() => {
-        console.log(gistData)
         dispatch(selectGist(gistData));
         history.push(`/${gistData.id}`);
       }}
