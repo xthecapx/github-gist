@@ -65,7 +65,7 @@
       ]
     },
     "dist/features/GistDetails/GistDetailsSlice.js": {
-      "bytes": 985,
+      "bytes": 973,
       "imports": [
         {
           "path": "_snowpack/env.js",
@@ -394,7 +394,7 @@
           "bytesInOutput": 401
         },
         "dist/features/GistDetails/GistDetailsSlice.js": {
-          "bytesInOutput": 390
+          "bytesInOutput": 381
         },
         "_snowpack/pkg/common/hoist-non-react-statics.cjs-82bb63e7.js": {
           "bytesInOutput": 3279
@@ -451,7 +451,7 @@
           "bytesInOutput": 118
         }
       },
-      "bytes": 191848
+      "bytes": 191839
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
