@@ -1,7 +1,7 @@
 {
   "inputs": {
     "_snowpack/env.js": {
-      "bytes": 162,
+      "bytes": 222,
       "imports": []
     },
     "_snowpack/pkg/common/index-e66f0a38.js": {
@@ -373,7 +373,7 @@
           "bytesInOutput": 22717
         },
         "_snowpack/env.js": {
-          "bytesInOutput": 159
+          "bytesInOutput": 213
         },
         "_snowpack/pkg/common/index-e66f0a38.js": {
           "bytesInOutput": 7133
@@ -451,7 +451,7 @@
           "bytesInOutput": 118
         }
       },
-      "bytes": 191794
+      "bytes": 191848
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
