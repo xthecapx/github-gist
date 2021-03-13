@@ -1,4 +1,5 @@
 {
+  "homepage": "http://xthecapx.github.io/github-gist",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

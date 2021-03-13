@@ -43,6 +43,7 @@ module.exports = {
   },
   buildOptions: {
     sourceMaps: false,
-    clean: true
+    clean: true,
+    baseUrl: process.env.SNOWPACK_PUBLIC_GITHUB_PAGES || '/',
   },
 };
