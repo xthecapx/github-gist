@@ -1,0 +1,14 @@
+.DetailsBox {
+  margin-top: 50px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
+
+.ForksBox,
+.FilesBox {
+  margin-top: 10px;
+}
+.ForksBox a,
+.FilesBox a {
+  text-decoration: underline;
+}
