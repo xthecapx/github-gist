@@ -6,8 +6,6 @@ const proxy = httpProxy.createServer({
   changeOrigin: true,
 });
 
-console.log(process.env.NODE_ENV)
-
 module.exports = {
   mount: {
     public: { url: '/', static: true },
@@ -32,10 +30,9 @@ module.exports = {
     },
   ],
   optimize: {
-    /* Example: Bundle your final build: */
     bundle: process.env.NODE_ENV == 'production',
     minify: process.env.NODE_ENV == 'production',
-    target: 'es2020'
+    target: 'es2020',
   },
   packageOptions: {
     /* ... */
@@ -46,6 +43,6 @@ module.exports = {
   buildOptions: {
     sourceMaps: false,
     clean: true,
-    baseUrl: process.env.SNOWPACK_PUBLIC_GITHUB_PAGES || '/',
+    baseUrl: process.env.NODE_ENV == 'production' ? '/github-gist' : '/',
   },
 };
