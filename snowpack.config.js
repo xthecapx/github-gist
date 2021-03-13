@@ -6,6 +6,8 @@ const proxy = httpProxy.createServer({
   changeOrigin: true,
 });
 
+console.log(process.env.NODE_ENV)
+
 module.exports = {
   mount: {
     public: { url: '/', static: true },
@@ -31,8 +33,8 @@ module.exports = {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    bundle: true,
-    minify: true,
+    bundle: process.env.NODE_ENV == 'production',
+    minify: process.env.NODE_ENV == 'production',
     target: 'es2020'
   },
   packageOptions: {
