@@ -58,8 +58,7 @@ export const getGistDetails = (gistId: string): AppThunk => async (
   dispatch,
 ) => {
   let data;
-
-  debugger;
+  
   try {
     let gistData = await fetch(`${BaseUrl}/gists/${gistId}`);
     data = await gistData.json();
