@@ -31,7 +31,9 @@ module.exports = {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    // "bundle": true,
+    bundle: true,
+    minify: true,
+    target: 'es2020'
   },
   packageOptions: {
     /* ... */
@@ -40,6 +42,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    sourceMaps: false,
+    clean: true
   },
 };
