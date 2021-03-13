@@ -1,0 +1,472 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 162,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-e66f0a38.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "_snowpack/pkg/react.js": {
+      "bytes": 215,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/index-6fdd872f.js": {
+      "bytes": 127463,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-dom.js": {
+      "bytes": 156,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-6fdd872f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-6fdd872f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@reduxjs/toolkit.js": {
+      "bytes": 47620,
+      "imports": []
+    },
+    "dist/features/SearchAndResults/SearchAndResultsSlice.js": {
+      "bytes": 960,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@reduxjs/toolkit.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/features/GistDetails/GistDetailsSlice.js": {
+      "bytes": 985,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@reduxjs/toolkit.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/store/index.js": {
+      "bytes": 326,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/@reduxjs/toolkit.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResultsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/GistDetails/GistDetailsSlice.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/hoist-non-react-statics.cjs-82bb63e7.js": {
+      "bytes": 5862,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-redux.js": {
+      "bytes": 15301,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-82bb63e7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-6fdd872f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-router-dom.js": {
+      "bytes": 67220,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-82bb63e7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Badges.module.css.proxy.js": {
+      "bytes": 583,
+      "imports": []
+    },
+    "dist/components/Badges.js": {
+      "bytes": 575,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Badges.module.css.proxy.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/GistCard.module.css.proxy.js": {
+      "bytes": 529,
+      "imports": []
+    },
+    "dist/components/GistCard.js": {
+      "bytes": 1056,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-redux.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResultsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Badges.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/GistCard.module.css.proxy.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/features/SearchAndResults/SearchAndResults.js": {
+      "bytes": 615,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResultsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-redux.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/GistCard.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Avatar.js": {
+      "bytes": 429,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Forks.js": {
+      "bytes": 595,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Avatar.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/features/GistDetails/GistDetails.module.css.proxy.js": {
+      "bytes": 704,
+      "imports": []
+    },
+    "dist/features/GistDetails/GistDetails.js": {
+      "bytes": 2229,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResultsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Forks.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/GistDetails/GistDetailsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/GistDetails/GistDetailsSlice.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-redux.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/GistDetails/GistDetails.module.css.proxy.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/SearchForm.js": {
+      "bytes": 844,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-redux.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResultsSlice.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.css": {
+      "bytes": 653,
+      "imports": []
+    },
+    "dist/App.js": {
+      "bytes": 947,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/SearchAndResults/SearchAndResults.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/features/GistDetails/GistDetails.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/SearchForm.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.css",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.css": {
+      "bytes": 366,
+      "imports": []
+    },
+    "_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css": {
+      "bytes": 161409,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 674,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-redux.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.js",
+      "inputs": {
+        "_snowpack/pkg/@reduxjs/toolkit.js": {
+          "bytesInOutput": 22717
+        },
+        "_snowpack/env.js": {
+          "bytesInOutput": 159
+        },
+        "_snowpack/pkg/common/index-e66f0a38.js": {
+          "bytesInOutput": 7133
+        },
+        "_snowpack/pkg/react.js": {
+          "bytesInOutput": 33
+        },
+        "_snowpack/pkg/common/index-6fdd872f.js": {
+          "bytesInOutput": 123857
+        },
+        "_snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 0
+        },
+        "dist/store/index.js": {
+          "bytesInOutput": 93
+        },
+        "dist/features/SearchAndResults/SearchAndResultsSlice.js": {
+          "bytesInOutput": 401
+        },
+        "dist/features/GistDetails/GistDetailsSlice.js": {
+          "bytesInOutput": 390
+        },
+        "_snowpack/pkg/common/hoist-non-react-statics.cjs-82bb63e7.js": {
+          "bytesInOutput": 3279
+        },
+        "_snowpack/pkg/react-redux.js": {
+          "bytesInOutput": 5572
+        },
+        "_snowpack/pkg/react-router-dom.js": {
+          "bytesInOutput": 23111
+        },
+        "dist/components/Badges.module.css.proxy.js": {
+          "bytesInOutput": 395
+        },
+        "dist/components/Badges.js": {
+          "bytesInOutput": 217
+        },
+        "dist/components/GistCard.module.css.proxy.js": {
+          "bytesInOutput": 344
+        },
+        "dist/components/GistCard.js": {
+          "bytesInOutput": 356
+        },
+        "dist/features/SearchAndResults/SearchAndResults.js": {
+          "bytesInOutput": 169
+        },
+        "dist/components/Avatar.js": {
+          "bytesInOutput": 208
+        },
+        "dist/components/Forks.js": {
+          "bytesInOutput": 267
+        },
+        "dist/features/GistDetails/GistDetails.module.css.proxy.js": {
+          "bytesInOutput": 508
+        },
+        "dist/features/GistDetails/GistDetails.js": {
+          "bytesInOutput": 888
+        },
+        "dist/components/SearchForm.js": {
+          "bytesInOutput": 313
+        },
+        "dist/App.css": {
+          "bytesInOutput": 0
+        },
+        "dist/App.js": {
+          "bytesInOutput": 312
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 118
+        }
+      },
+      "bytes": 191794
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css": {
+          "bytesInOutput": 161202
+        },
+        "dist/index.css": {
+          "bytesInOutput": 310
+        },
+        "dist/App.css": {
+          "bytesInOutput": 514
+        }
+      },
+      "bytes": 162027
+    }
+  }
+}
